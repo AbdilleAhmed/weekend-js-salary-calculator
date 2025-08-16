@@ -1,0 +1,23 @@
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+   
+}
+button{
+        padding: 25px 30px;
+        width: 170px;
+      font-size: 14px;
+      background-color: #48ff00; 
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      margin: auto;
+     
+    }
+    h2{
+text-align: center;
+justify-content: center;
+    }

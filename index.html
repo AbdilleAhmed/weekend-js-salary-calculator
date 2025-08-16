@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"  defer/>
+  <link rel="stylesheet" href="styles.css">
+    <title>SALARY CALCULATOR</title>
+  </head>
+  <body>
+    <H2>SALARY CALCULATOR</H2>
+   <form onsubmit="submitForm(event)">
+  <label for="firstName">First Name
+    <input type="text" id="firstName">
+  </label>
+
+  <label for="lastName">Last Name
+    <input type="text" id="lastName">
+  </label>
+
+  <label for="idNumber">Id Number
+    <input type="number" id="idNumber">
+  </label>
+
+  <label for="jobTitle">Job Title
+    <input type="text" id="jobTitle">
+  </label>
+
+  <label for="AnnualSalary">Annual Salary
+    <input type="number" id="AnnualSalary">
+  </label>
+
+  <button type="submit">SUBMIT</button>
+</form>
+
+        
+      
+    <ul id="SalaryCalculator"></ul>
+    </body>
+    <script src="index.js"></script>
+</html>
