@@ -4,37 +4,51 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"  defer/>
   <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
     <title>SALARY CALCULATOR</title>
   </head>
   <body>
     <H2>SALARY CALCULATOR</H2>
-   <form onsubmit="submitForm(event)">
-  <label for="firstName">First Name
-    <input type="text" id="firstName">
+    <div class="formWrapper">
+        <form onsubmit="submitForm(event)" id="form">
+    <div class="formDetails"> <label for="firstName">
+    <input type="text" id="firstName" placeholder="firstName">
+  </label></div>
+ 
+<div class="formDetails"><label for="lastName">
+    <input type="text" id="lastName" placeholder="lastName">
+  </label></div>
+  
+<div class="formDetails"><label for="idNumber">
+    <input type="number" id="idNumber" placeholder="ID">
   </label>
-
-  <label for="lastName">Last Name
-    <input type="text" id="lastName">
+</div>
+  
+<div class="formDetails">
+  <label for="jobTitle">
+    <input type="text" id="jobTitle" placeholder="jobTitle">
   </label>
-
-  <label for="idNumber">Id Number
-    <input type="number" id="idNumber">
+</div>
+  
+<div class="formDetails">
+  <label for="AnnualSalary">
+    <input type="number" id="AnnualSalary" placeholder="AnnualSalary">
   </label>
+</div>
+  
+<div class="formDetails btn">
+    <button type="submit" delete-btn>SUBMIT</button>
+</div>
 
-  <label for="jobTitle">Job Title
-    <input type="text" id="jobTitle">
-  </label>
-
-  <label for="AnnualSalary">Annual Salary
-    <input type="number" id="AnnualSalary">
-  </label>
-
-  <button type="submit">SUBMIT</button>
 </form>
+    </div>
+ 
 
-        
-      
-    <ul id="SalaryCalculator"></ul>
+<div id="container">
+ 
+</div>
+
     </body>
     <script src="index.js"></script>
 </html>
